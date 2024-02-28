@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn{
+    @apply h-[48px] px-[30px] transition-all duration-300 text-white rounded-[18px] flex items-center gap-2
+}
+.btn-primary{
+    @apply bg-orange-500 hover:bg-orange-600
+}
+.btn-accent {
+    @apply bg-amber-400 hover:bg-amber-500
+}
+body {
+    @apply font-primary;
+}
+.btn-card{
+    @apply h-[48px] px-[80px] transition-all duration-300 text-white rounded-[18px] flex items-center gap-2
+}
